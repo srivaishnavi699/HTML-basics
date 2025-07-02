@@ -1,0 +1,102 @@
+
+div{
+                text-align: center;
+            }
+            
+            thead{
+                background-color: blue;
+                background-position: center;
+                text-align: center;
+            }
+            tbody{
+                background-color: rgb(230, 1, 39);
+                background-position: center;
+                text-align: center;
+            }
+            caption{
+                background-color: rgb(35, 224, 6);
+                text-align: center;
+            }
+            
+            
+            ul,ol,dd{
+                color: rgb(245, 94, 0);
+            }
+.A{
+    color: blue;
+    border-color: darkblue;
+}
+.B{
+    color: red;
+    border-color: deeppink;
+}
+.C{
+    color: green;
+    border-color: rgb(11, 30, 210);
+}
+.D{
+    color: rgb(13, 6, 116);
+    border-color: rgb(12, 151, 26);
+}
+#E{
+    color: yellowgreen;
+    border-color: red;
+}
+.F1{
+    color:rgb(0, 0, 0);
+    border-color: blue;
+}
+.F2{
+    color:rgb(0, 0, 0);
+    border-color: red;
+}
+form *{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: darkmagenta;
+}
+.Date{
+    color: rgb(22, 97, 7);
+    border-color: darkblue;
+}
+#a1{
+    text-align:justify;
+    color: blue;
+    margin: 50px;
+    font-size: 1.5em;
+    line-height: 2;
+
+}
+#a2{
+    text-align:center; 
+    color: red;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 4em;
+}
+#dd{
+    background-color: rgb(246, 0, 0);
+    color: white;
+    height: 50px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border-radius: 55px;
+    border-style: double;
+    border: rgb(6, 213, 20) 10px solid;
+    outline-style: double;
+    outline-color: rgb(22, 97, 7);
+    
+}
+#dd:hover{
+    background-color: yellow;
+    color: rgb(76, 4, 218);
+    border: 2px solid rgb(197, 12, 12);
+    box-shadow: 0px 0px 10px rgba(233, 9, 173, 0.5);
+    cursor: pointer;
+    border-style: double;
+   
+}

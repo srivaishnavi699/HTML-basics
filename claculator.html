@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+
+        }
+        .flex{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            color: white;
+            gap: 10px; /* Space between items */
+            justify-content: center;
+            align-items: center; /* Center items vertically */
+        }
+        .flex1{
+            display: flex;
+            border: solid;
+            border-color: black;
+            border-radius: 5px;
+            height: 55px;
+            width: 55px;
+            background-color: blue;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around; /* Center content horizontally */
+            flex-wrap: wrap;
+
+        }
+         .flex > .flex1{
+            background-color: rgb(255, 0, 0);
+
+        }
+        .flex > .f{
+            display: flex;
+            border: solid;
+            border-color: black;
+            border-radius: 5px;
+            height: 55px;
+            width: 55px;
+            background-color: blue;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around; /* Center content horizontally */
+            flex-wrap: wrap;
+            color: white;
+        }
+        .f:hover {
+      background-color: #0cc3d4;
+      color: rgb(0, 0, 0);
+        }
+        .A1{
+            background-color: black;
+            text-align: right;
+            color: white;
+            align-items: center;
+            font-size: 2rem;
+            padding: 10px;
+            margin: 20px auto;
+            width: 250px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="A1">0000</div><br>
+    <div class="flex"><!-- This is a flex container -->
+        <button class="f" >1</button>
+        <button class="f" >2</button>
+        <button class="f" >3</button>
+        <button class="f" >4</button>
+        <button class="f" >5</button>
+        <button class="f" >6</button>
+        <button class="f" >7</button>
+        <button class="f" >8</button>
+        <button class="f" >9</button>
+        <button class="f" >0</button>
+        <button class="f" >+</button>
+        <button class="f" >-</button>
+        <button class="f" >*</button>
+        <button class="f" >/</button>
+        <button class="f" >=</button>
+        <button class="f" >#</button>
+        <button class="f" >AC</button>
+        <button class="f" >Back</button>
+
+    </div>
+</body>
+</html>

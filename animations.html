@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation: myAnimation 10s infinite alternate;
+        /* Animation will run for 10 seconds, infinitely, and alternate between the keyframes */
+        position: relative; /* Position relative to allow left property to work */
+    }
+        @keyframes myAnimation {/* Define the keyframes for the animation */
+            /* 0% is the start of the animation, 50% is the middle, and 100% is the end */
+            /* Each keyframe can have different styles */
+            0%{/* At the start of the animation */
+                position: absolute; /* Position absolute to allow left property to work */
+                left: 0px;/* Start at the left edge of the container */
+                background-color: rgb(18, 0, 152);
+                transform: translateX(0);/* No translation at the start */
+                transform: translateY(0);/* No vertical translation at the start */
+            }
+            50% {/* At the middle of the animation */
+                left: 100px;/* Move to 100px from the left edge */
+                /* This is where the animation changes */
+                background-color: rgb(212, 1, 198);
+                border-radius: 100px;
+                transform: translateX(100px);/* Translate the element 100px to the right */
+                /* This will create a smooth transition to the right */
+                /*transform: translateY(100px);/* Translate the element 100px down */
+                transform: rotate(45deg); /* Rotate the element 45 degrees */
+                /* This will create a rotation effect */
+            }
+            100% {/* At the end of the animation */
+                left: 200px;
+                border-radius: 100px; /* Change the border radius to 100px */
+                /* This will create a circular shape */
+                background-color: green;
+                transform: translateX(200px);/* Translate the element 200px to the right */
+                /* This will create a smooth transition to the right */
+            }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div>1
+    </div>
+</body>
+</html>

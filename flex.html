@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color: rgb(24, 141, 0);
+            color: white;
+            gap: 50px; /* Space between items */
+            justify-content: center;
+            align-items: center; /* Center items vertically */
+        }
+        .flex1{
+            display: flex;
+            border: solid;
+            border-color: black;
+            border-radius: 5px;
+            height: 55px;
+            width: 55px;
+            background-color: blue;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around; /* Center content horizontally */
+            flex-wrap: wrap;
+
+        }
+         .flex > .flex1{
+            background-color: rgb(255, 0, 0);
+
+        }
+        .flex > .f{
+            display: flex;
+            border: solid;
+            border-color: black;
+            border-radius: 5px;
+            height: 55px;
+            width: 55px;
+            background-color: blue;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around; /* Center content horizontally */
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <!-- This is a flex container with items -->
+     <!-- The flex container will arrange its children in a row -->
+    <div class="flex"><!-- This is a flex container -->
+        <div class="f" >1</div>
+        <div class=flex1 >2</div>
+        <div class="f">3</div>
+        <div class="flex1">4</div>
+    </div>
+</body>
+</html>

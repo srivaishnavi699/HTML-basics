@@ -1,0 +1,392 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+header {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 20px;
+    background: #222;
+    color: crimson;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.car-list {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 2em;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #1e1e1e;
+}
+#a1{
+    text-align:justify;
+    color: rgb(39, 14, 226);
+    margin: 50px;
+    font-size: 1.5em;
+    line-height: 2;
+}
+#a2{
+    text-align:center; 
+    color: red;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 4em;  
+}
+#a3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    text-transform: uppercase;
+
+}
+#dd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; 
+}
+
+button {/*
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;*/
+    color: white;
+    height: 50px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border-radius: 55px;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(42, 225, 6);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+        cursor: pointer;
+}
+.link:visited {
+  color: rgb(0, 0, 0);
+}
+
+.link:hover {
+  color: brown;
+}
+
+.link:active {
+  color: white;
+}
+
+.container{/*
+    font-size: 1.5em;
+    text-align: left;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: url("https://wallpapercave.com/wp/37f3T66.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    padding-left: 80px;*/
+    position: relative; /* Required for absolute positioning inside */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90vh;
+  background-image: url("https://wallpapercave.com/wp/37f3T66.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.textbox{
+    /*
+    color: white;
+    font-size: 1.5em;
+    text-align: justify;
+    width: 40%;
+    margin-left: 1000px;
+    margin-right: 10px;
+    margin-bottom: 200px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.5);*/
+     position: absolute; /* Place over image */
+  top: 50%;            /* Vertically center */
+  right: 80px;         /* Space from right edge */
+  transform: translateY(-50%); /* Center vertically */
+
+  color: white;
+  width: 40%;
+  text-align: justify;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+  
+}
+.container1{
+    /*font-size: 1.5em;
+    text-align: left;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: url("https://www.mercedes-benz.co.in/content/dam/retail/india/june2025newcampaign/mb_pre_festive_tactical_campaign_glc_oneweb.jpg/1749706968150.jpg?im=Crop,rect=(674,241,3139,1397);Resize=(2730,1215)");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    padding-left: 80px;*/
+     position: relative; /* Required for absolute positioning inside */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90vh;
+  background-image: url("https://www.mercedes-benz.co.in/content/dam/retail/india/june2025newcampaign/mb_pre_festive_tactical_campaign_glc_oneweb.jpg/1749706968150.jpg?im=Crop,rect=(674,241,3139,1397);Resize=(2730,1215)");
+  background-size: cover;
+  background-position: center;
+}
+.textbox1{ 
+    position: absolute; /* Place over image */
+  top: 50%;            /* Vertically center */
+  right: 100px;         /* Space from right edge */
+  transform: translateY(-50%); /* Center vertically */
+  left: 50px;;
+  color: white;
+  width: 40%;
+  text-align: justify;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.container2{/*
+    font-size: 1.5em;
+    text-align: left;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image: url("https://cdn-s-www.ledauphine.com/images/1FE7C9EB-A071-4DA6-9542-C991AB644DA5/NW_raw/par-rapport-a-l-audi-r8-coupe-v10-performance-rwd-diverses-mesures-ont-permis-de-reduire-le-poids-d-environ-20-kilogrammes-pour-atteindre-un-total-de-1570-kilogramme-1664876819.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    padding-left: 50px;*/
+    position: relative; /* Required for absolute positioning inside */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90vh;
+  background-image: url("https://cdn-s-www.ledauphine.com/images/1FE7C9EB-A071-4DA6-9542-C991AB644DA5/NW_raw/par-rapport-a-l-audi-r8-coupe-v10-performance-rwd-diverses-mesures-ont-permis-de-reduire-le-poids-d-environ-20-kilogrammes-pour-atteindre-un-total-de-1570-kilogramme-1664876819.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.textbox2{/*
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-align: justify;
+    width: 30%;
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-bottom: 300px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;*/
+    position: absolute; /* Place over image */
+  top: 50%;            /* Vertically center */
+  right: 100px;         /* Space from right edge */
+  transform: translateY(-50%); /* Center vertically */
+  left: 50px;;
+  color: white;
+  width: 40%;
+  text-align: justify;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.container3{/*
+    font-size: 1.5em;
+    text-align: left;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image: url("https://images.lifestyleasia.com/wp-content/uploads/sites/2/2023/03/31113657/lamborghini-revuelto-v12-hybrid-hpev-high-performance-electrified-vehicle-02-1536x1024.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    padding-left: 80px;*/
+    position: relative; /* Required for absolute positioning inside */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90vh;
+  background-image: url("https://images.lifestyleasia.com/wp-content/uploads/sites/2/2023/03/31113657/lamborghini-revuelto-v12-hybrid-hpev-high-performance-electrified-vehicle-02-1536x1024.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.textbox3{/*
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-align: justify;
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-bottom: 500px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;*/
+    position: absolute; /* Place over image */
+  top: 50%;            /* Vertically center */
+  right: 100px;         /* Space from right edge */
+  transform: translateY(-50%); /* Center vertically */
+  left: 50px;;
+  color: white;
+  width: 40%;
+  text-align: justify;
+  margin-bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.container4{/*
+    font-size: 1.5em;
+    text-align: left;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image: url("https://files.porsche.com/filestore/image/multimedia/none/sct-history-timeline-entry-07-15-01/normal/d5801e15-2c39-11e8-bbc5-0019999cd470/porsche-normal.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    padding-left: 80px;*/
+    position: relative; /* Required for absolute positioning inside */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90vh;
+  background-image: url("https://files.porsche.com/filestore/image/multimedia/none/sct-history-timeline-entry-07-15-01/normal/d5801e15-2c39-11e8-bbc5-0019999cd470/porsche-normal.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.textbox4{/*
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-align: justify;
+    width: 30%;
+    margin-left: 40px;
+    margin-left: 00px;
+    margin-right: 10px;
+    margin-bottom: 200px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;*/
+    position: absolute; /* Place over image */
+  top: 50%;            /* Vertically center */
+  right: 100px;         /* Space from right edge */
+  transform: translateY(-50%); /* Center vertically */
+  left: 50px;;
+  color: white;
+  width: 40%;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+   
+}
+.container5{/*
+    font-size: 1.5em;
+    text-align: left;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image: url("https://th.bing.com/th/id/R.77cfa87dca079e5eac79ae3b1d4c01ad?rik=JE9ttkjuC8O7Tg&riu=http%3a%2f%2fwww.hdcarwallpapers.com%2fwalls%2f2015_rolls_royce_phantom_limelight-wide.jpg&ehk=0NoFRu7cQ8IaoULDgnZuO5ZNjoYWUF0CscAM5UdQTYo%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    padding-left: 80px;*/
+    position: relative; /* Required for absolute positioning inside */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90vh;
+  background-image: url("https://th.bing.com/th/id/R.77cfa87dca079e5eac79ae3b1d4c01ad?rik=JE9ttkjuC8O7Tg&riu=http%3a%2f%2fwww.hdcarwallpapers.com%2fwalls%2f2015_rolls_royce_phantom_limelight-wide.jpg&ehk=0NoFRu7cQ8IaoULDgnZuO5ZNjoYWUF0CscAM5UdQTYo%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
+}
+.textbox5{/*
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-align: justify;
+    width: 50%;
+    margin-left: 40px;
+    margin-left: 00px;
+    margin-right: 10px;
+    margin-bottom: 200px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;*/
+     position: absolute; /* Place over image */
+  top: 30%;            /* Vertically center */
+  right: 80px;         /* Space from right edge */
+  transform: translateY(-50%); /* Center vertically */
+  color: white;
+  width: 40%;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+/*{
+margin:[margin-top, margin-right, margin-bottom, margin-left];
+padding:[padding-top, padding-right, padding-bottom, padding-left];
+margin: 20px 10px 20px 10px;
+padding: 20px 10px 20px 10px;
+}*/

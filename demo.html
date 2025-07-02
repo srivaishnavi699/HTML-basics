@@ -1,0 +1,146 @@
+<!DOCTYPE html><!--describes type of document-->
+<html lang="en">
+    <head><!--stores the meta data of the file-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>First HTML Program</title>
+        <link rel="stylesheet" href="style.css"><!--link tag is used to link the external css file-->
+        <!--this is the comment line for my file-->
+        
+     </head>
+    <body> <h1>
+        <!--contains the actual info that we want to display-->
+    <div>
+        <b><b><p style="color: blueviolet;">i am vaishnavi</p></b>
+        <q style="color: blue;">this is the text</q><!--text for single line text-->
+        <pre style="color: darkgreen;">    this is pre tag   </pre> <!--for the extra space-->
+    </br>
+        <abbr title= world health organization style="color: deeppink;">WHO</abbr><hr><!--addervations-->
+        <address style="color: aqua;">hyderabad telangana</address>
+        </br>
+        <kbd style="color: dodgerblue;">ctrl + c</kbd><!--for gaming purpose-->
+    </div>
+    <p style="color: green;">this is outside the division</p>
+    <hr></h1>
+
+    <!--TABLES IN HTML-->
+    <table>
+        <tr>
+            <caption >Students</caption><!--name of the table-->
+            <thead>  <!--table head-->
+                <tr>
+                    <td>roll no</td>
+                    <td>student_name</td>
+                    <td>section</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>vaishnavi</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>priya</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>kavya</td>
+                    <td>C</td>
+                </tr>
+            </tbody>
+        </tr>
+    </table>
+    
+        <!--LISTS IN HTML-->
+        <!--LIST ARE OF 3 TYPES 1.ORDERED LIST 2.UNORDERED 3.DESCRIPTION LIST-->
+    <ul><!--unordered list-->
+        <li>apple</li>
+        <li>banana</li>
+        <li>cherry</li>
+    </ul>
+    <ol><!--ordered list-->
+        <li>apple</li>
+        <li>banana</li>
+        <li>cherry</li>
+    </ol>
+    <dd><!--description list-->
+        <dt>A</dt>
+        <dd>A related data</dd>
+        <dt> B</dt>
+        <dd>B releated data</dd>
+    </dd><hr>
+</br>
+</br>
+       <!--FORMS IN HTML-->
+       <!--used to collect user input-->
+       <!--form tag is used to create a form-->
+       <!--action attribute is used to specify where to send the form data when the form is submitted-->
+       <!--method attribute is used to specify the HTTP method to use when sending form data-->
+       <!--POST method is used to send data to the server-->
+       <!--GET method is used to request data from the server-->
+       <!--input tag is used to create an input field-->
+       <!--label tag is used to create a label for an input field-->
+       <!--button tag is used to create a button-->
+       <!--type attribute is used to specify the type of input field or button-->
+       <!--text type is used to create a text input field-->
+       <!--password type is used to create a password input field-->
+       
+    <form action="submit" method="post" >
+        <lable for="name">Name</lable>
+        <input type="text" id="name" ></br></br><!--input tag is used to create an input field-->
+        
+        <lable for="password">Password</lable>
+        <input type="password" ></br></br><!--input tag is used to create a password field-->
+        
+        <label for="email">Email</label>
+        <input type="text"></br></br><!--input tag is used to create an email field-->
+        
+        <button type="submit">Submit</button></br></br><!--button tag is used to create a button-->
+    </form>
+</br>
+    <a href="https://www.w3schools.com/html/html_forms.asp">w3 Schools</a></br>
+</br>
+    <img src="https://thehappypuppysite.com/wp-content/uploads/2017/04/golden-retrieverpup.jpg" alt="Golden Retriever Puppy" width="100" height="200">
+
+    <img src="/images/R.jpg" alt="Puppy" width="100" height="100"></br></br></br>
+
+    <h2>Select your gender:</h2><!--radio buttons and checkboxes-->
+    <form >
+        <input type="radio" name="gender">Male</br>
+        <!--radio button is used to select one option from a group-->
+        <input type="radio" name="gender">Female</br>
+    </form>
+    <h2>Choose your favourite subject:</h2>
+    <form>
+        <input type="checkbox">DSA</br>
+        <!--checkbox is used to select multiple options-->
+        <input type="checkbox">machine Learning</br>
+        <input type="checkbox">Database management system</br>
+        <input type="checkbox">DAA</br>        
+    </form>
+    <h2>select your state</h2>
+    <form ><!--class is used to apply css styles-->
+        <select class="F1" name="state" id="state"><!--select is used for drop down option-->
+            <option name="state" value="telangana">telangana</option>
+            <option name="state" value="lucknow">lucknow</option>
+            <option name="state" value="goa">goa</option></br>
+        </select></br></br>
+    </form><hr>
+    <h1>DOB</h1>
+    <input class="Date" type="date"></br></br>
+   
+   <button class="A" type="submit">Submit</button></br></br>
+    <button class="B" type="reset">Reset</button></br></br>
+    <button class="C" type="button">Click Me</button></br></br>
+    <button class="D" type="button" onclick="alert('Hello!, Nandini')">Alert</button></br></br>
+    <!--onclick is an event handler that executes a script when the button is clicked-->
+    <button id="E" type="button" onclick="alert('successfully submitted--')">Console Log</button></br></br>
+    <!--button with id E will log a message to the console when clicked--> 
+    <button id="dd" type="button">Button</button>
+
+    
+</body>
+</html>
